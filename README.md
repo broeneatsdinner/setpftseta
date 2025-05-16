@@ -13,11 +13,12 @@ SEPftSETA is a cybersecurity research project focused on the passive collection,
 
 ## Objectives
 
-- Deploy a hardened, anonymized burner phone environment
+- Deploy a hardened, anonymized burner phone environment 
 - Route communications through a chained VPN + jump server infrastructure
 - Capture and log SMS, call metadata, and scam links sent to bait endpoints
+- Transcribe incoming scam voicemails using Whisper and enrich them with OSINT
 - Perform passive DNS and HTTPS traffic analysis via isolated nodes
-- Enrich collected data with OSINT and MITRE ATT&CK mapping
+- Map language and behavioral patterns to MITRE ATT&CK framework
 - Maintain ethical boundaries with no active probing or engagement
 
 ---
@@ -26,7 +27,8 @@ SEPftSETA is a cybersecurity research project focused on the passive collection,
 
 ✅ Project proposal submitted – awaiting formal approval  
 🔒 Infrastructure built with layered opsec  
-📊 Passive logging and enrichment pipeline in development  
+📊 Passive logging, transcription, and enrichment pipeline in development  
+📱 Burner phone (iPhone SE) acquired and prepped  
 🧠 Final report and findings in progress — estimated completion: June 2025
 
 ---
