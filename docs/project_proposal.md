@@ -72,12 +72,13 @@ While initially considering a project involving RFID reverse-engineering and clo
 
 ## Future Potential Enhancements
 
-While this project is scoped for completion in a condensed two-week timeframe, future iterations could expand into more offensive security tooling. This includes the integration of:
+While this project is scoped for completion in a condensed two-week timeframe, future iterations could expand into more offensive security tooling and active adversary simulation. These include:
 
-- **Burp Suite** for analyzing phishing infrastructure and reverse-engineering scam payloads  
+- **Reverse Shell Payload Deployment** to redirect scammers to a hardened, isolated system and simulate real-world post-exploitation scenarios  
 - **BeEF (Browser Exploitation Framework)** for hooking scammer browsers during controlled bait engagement  
+- **Burp Suite** for analyzing phishing infrastructure and reverse-engineering scam payloads  
 
-These capabilities are discussed for future use only and will not be implemented in this project’s timeline. No active offensive tooling will be deployed in this engagement.
+These capabilities are discussed for future exploration only and will not be implemented within the current timeline. No active offensive tooling will be deployed in this engagement. However, the long-term vision includes safely emulating adversary engagement techniques that mirror advanced red team operations in controlled environments.
 
 ---
 
