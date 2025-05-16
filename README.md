@@ -16,6 +16,7 @@ SEPftSETA is a cybersecurity research project focused on the passive collection,
 - Deploy a hardened, anonymized burner phone environment 
 - Route communications through a chained VPN + jump server infrastructure
 - Capture and log SMS, call metadata, and scam links sent to bait endpoints
+- Record and transcribe both live scam calls and voicemails using Whisper, enriching with OSINT  
 - Transcribe incoming scam voicemails using Whisper and enrich them with OSINT
 - Perform passive DNS and HTTPS traffic analysis via isolated nodes
 - Map language and behavioral patterns to MITRE ATT&CK framework
