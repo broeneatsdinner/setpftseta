@@ -25,14 +25,19 @@ While initially considering a project involving RFID reverse-engineering and clo
 
 ## Objectives
 
-- Deploy a burner phone environment using an iPhone 5 connected to Wi-Fi only  
-- Route all outbound traffic through a custom VPN chain (U.S. → Europe) for anonymity  
-- Acquire and configure a VoIP number anonymously (e.g., via TextNow, MySudo, or JMP.chat)  
-- Log incoming scam calls and SMS texts for analysis  
+- Deploy a hardened, anonymized burner phone environment  
+- Route all communications through a custom VPN chain (U.S. & Europe) for anonymity
+- Capture and log SMS, call metadata, and scam links sent to bait endpoints  
+- Acquire and configure a VoIP number anonymously  
+- Log incoming scam calls and SMS texts for analysis
+- Record and transcribe both live scam calls and voicemails using Whisper, enriching with OSINT  
 - Conduct safe OSINT on inbound phone numbers and URLs  
 - Optionally respond to or re-engage scammers using scripted interaction over VoIP  
 - Analyze captured behavior and map it to MITRE ATT&CK techniques and tactics  
-- Present findings with ethical commentary and procedural documentation  
+- Present findings with ethical commentary and procedural documentation
+- Perform passive DNS and HTTPS traffic analysis via isolated nodes  
+- Map language and behavioral patterns to MITRE ATT&CK framework  
+- Maintain ethical boundaries with no active probing or engagement  
 
 ---
 
@@ -41,7 +46,7 @@ While initially considering a project involving RFID reverse-engineering and clo
 - **Burner Device**: Hardened iPhone 5 with no SIM or Apple ID  
 - **Anonymity Layer**: Self-hosted VPN + international jump server on remote VPS  
 - **VoIP Platform**: Secure VoIP app tied to masked identity  
-- **Logging**: Timestamps, metadata, screenshots, SMS records  
+- **Logging**: Timestamps, metadata, screenshots, SMS records, audio recording and transcription pipeline using Whisper (live and voicemail)  
 - **Enrichment Pipeline**: Processes raw data (phone numbers, domains, IPs) into contextual threat intelligence using VirusTotal, WHOIS, AbuseIPDB, and passive DNS  
 - **OSINT Tools**: VirusTotal, WHOIS, AbuseIPDB, reverse phone lookup  
 - **Network Analysis**: Nmap, mitmproxy, Wireshark (in sandboxed VM)  
