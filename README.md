@@ -34,7 +34,7 @@ SEPftSETA is a cybersecurity research project focused on the passive collection,
 ## Documentation
 
 - 📄 [Project Proposal](docs/project_proposal.md)
-- 📁 Infrastructure Overview *(coming soon)*
+- 📁 [Infrastructure Overview](docs/infrastructure.md)
 - 🔍 Redacted Traffic Logs *(in progress)*
 
 ---
