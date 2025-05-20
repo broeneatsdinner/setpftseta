@@ -26,7 +26,7 @@ SEPftSETA is a cybersecurity research project focused on the passive collection,
 
 ## Status
 
-✅ Project proposal submitted – awaiting formal approval  
+✅ Project proposal approved May 19, 2025  
 🔒 Infrastructure built with layered opsec  
 📊 Passive logging, transcription, and enrichment pipeline in development  
 📱 Burner phone (iPhone SE) acquired and prepped  
